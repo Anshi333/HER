@@ -1,0 +1,204 @@
+@import url(https://db.onlinewebfonts.com/c/0fc59c9e01146174219b63566981f325?family=Le+Jour+Serif);
+@import url(https://db.onlinewebfonts.com/c/66ea2f27441b782f8f036eba1471d3ab?family=Hero);
+@import url(https://db.onlinewebfonts.com/c/4249bbcb42a42840f81e0323e1d0a9b1?family=Hero-Light);
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+.header{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    height: 140px;
+}
+#name{
+    font-family: 'Le Jour Serif', sans-serif;
+    font-size: 80px;
+    display: grid;
+    line-height: 100px;
+    letter-spacing: 6px;
+    margin-top: 20px;
+}
+#sub{
+    font-family: 'Hero-Light', sans-serif;
+    margin-top: 0px;
+    font-size: 20px;
+    display: grid;
+    letter-spacing: 6px;
+}
+.img{
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: end;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    position:sticky;
+    top:0px;
+    background-color: rgba(255, 255, 255);
+    padding:7px; 
+    z-index: 1;
+}
+.stickborder{
+    color: #000; 
+    text-decoration:none;
+    transition: all 0.3s ease;
+}
+.stickborder:hover{
+    color:rgb(179, 110, 8);
+    text-decoration: underline 3px;
+    text-underline-offset: 10px; 
+}
+.head2{
+    font-family: 'Le Jour Serif';
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 0.5px;
+    margin-left: 80px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 10px; 
+    text-align: center;
+    width: 100%;
+}
+.flower{
+    height: 90px;
+}
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 3em;   
+}
+.cont3{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    margin-right: 3em;   
+}
+.headimg {
+    height: 120px; 
+    margin-top:0px;
+}
+.pd{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top:0px;
+    margin-bottom:15px ;
+}
+.half-width{
+    width: 500px;
+}
+
+.logo{
+    display: grid;
+    align-items: left;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+
+.vid2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.dn{
+    font-weight: bold;
+}
+.boh {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.blocks {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+    height: 600px;
+    width: 360px;
+    background-color: #EC8D77;
+    border-radius: 20px;
+    transition: top ease 0.3s;
+    position: relative;
+    top: 0;
+}
+.blocks:hover{
+    background-color: #B83143;
+    top: -10px;
+    color:azure;
+}
+
+
+.info {
+    grid-column: span 3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ved {
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.doc {
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.thir {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+}
+
+.momo{
+    font-family:'Hero',sans-serif;
+    margin:0px;
+}
+
+.footer{
+    font-family: serif;
+    font-size: 20px;
+}
+.foot{
+    background-color: #f8bcae;
+    padding: 30px;
+    margin-top: 100px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

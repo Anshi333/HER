@@ -1,0 +1,188 @@
+@import url(https://db.onlinewebfonts.com/c/0fc59c9e01146174219b63566981f325?family=Le+Jour+Serif);
+@import url(https://db.onlinewebfonts.com/c/66ea2f27441b782f8f036eba1471d3ab?family=Hero);
+@import url(https://db.onlinewebfonts.com/c/4249bbcb42a42840f81e0323e1d0a9b1?family=Hero-Light);
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+.header{
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    height:140px;
+}
+#name{
+    font-family: 'Le Jour Serif', sans-serif;
+    font-size: 80px;
+    display: grid;
+    line-height: 100px;
+    letter-spacing: 6px;
+    margin-top: 20px;
+}
+#sub{
+    font-family: 'Hero-Light', sans-serif;
+    margin-top: 0px;
+    font-size: 20px;
+    display: grid;
+    letter-spacing: 6px;
+}
+.img{
+    display: flex;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: end;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    position:sticky;
+    top:0px;
+    background-color: rgba(255, 255, 255);
+    margin-left: 35px;
+    padding:7px; 
+    z-index: 1;
+}
+.stickborder{
+    color: #000; 
+    text-decoration:none;
+    transition: all 0.3s ease;
+}
+.stickborder:hover{
+    color:rgb(179, 110, 8);
+    text-decoration: underline 3px;
+    text-underline-offset: 10px; 
+}
+.head2{
+    font-family: 'Le Jour Serif';
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 0.5px;
+    margin-left: 60px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+
+
+.subheader{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background-color: #F7CEC4;
+    height: 90px;
+    position: relative;
+}
+.uknow{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom:40px;
+    margin-top: 40px;
+    display: grid;
+    line-height: 100px;
+    letter-spacing: 6px;
+}
+.head{
+    font-family: Hero;
+    font-size: 30px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main{
+    font-family: Hero;
+    font-size: 20px;
+}
+#mid{
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    font-family: Hero-light;
+}
+.ques{
+    color: #000; 
+    text-decoration:none;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(22, 16, 2);
+}
+.foot{
+    background-color: #F7CEC4;
+    padding: 30px;
+    margin-top: 100px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    font-family: serif;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Hero', sans-serif;
+}
+
+.forme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    height: 40px;
+    position: relative;
+    right: 13%;
+}
+.text2{
+    margin-top:30px;
+    text-decoration:none;
+    transition: all 0.3s ease;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Hero",sans-serif;
+    font-weight:600;
+
+     /* the color  */
+    --c: rgb(227, 44, 111);
+    /* the height */
+    --h: 0.9em;
+
+    line-height: var(--h);  
+    color: #0000;
+    overflow: hidden;
+    text-shadow: 
+        0 calc(-0.9 * var(--h) * var(--_i, 0)) var(--c), 
+        0 calc(var(--h) * (0.9 - var(--_i, 0))) #fff;
+    background: 
+        linear-gradient(var(--c) 0 0) no-repeat
+        calc(200% - var(--_i, 0) * 100%) 100% / 200% calc(100% * var(--_i, 0) + .07em);
+    transition: .3s calc(var(--_i, 0) * .3s), background-position .3s calc(.3s - calc(var(--_i, 0) * .3s));
+}
+.text2:hover{
+    --_i:1;
+}

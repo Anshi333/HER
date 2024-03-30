@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/profile.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="demo-wrap">
+        <img src="./media/img2.jpg" class="bg">
+    </div>
+    <div class="container">
+        <img src="./media/logo1.png" class="img">
+        <div class="main">
+            <input type="checkbox" id="check" aria-hidden="true">
+            <div class="signup">
+                <form>
+                    <label for="check" aria-hidden="true">Sign Up</label> 
+                    <input type="text" id="username" name="text" placeholder="User name" required />
+                    <input type="email" id="email1" name="email" placeholder="Email" required />
+                    <input type="Password" id="pass1" name="Password" placeholder="Password" required />
+                    <button type="submit" class="button" onclick="func1()">Sign Up</button>
+                    <p style="font-size: 11px">Already have an account? <br>Click on Sign Up logo</p>
+                </form>
+            </div>
+            <div class="signin">
+                <form>
+                    <label for="check" aria-hidden="true" >Log In</label> 
+                    <input type="email" id="email2" name="email" placeholder="Email" required />
+                    <input type="Password" id="pass2" name="Password" placeholder="Password" required />
+                    <input type="submit" value="Login" class="button1" onclick="func2()"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        let signupbttn = document.getElementById("signupbtn");
+        let loginbttn = document.getElementById("loginbtn");
+
+        function func1(){
+            var email = document.getElementById("email1").value;
+            var pass = document.getElementById("pass1").value;
+
+            if(email == "" && pass == ""){
+                alert("Please enter email and password"); 
+                return false; 
+            }
+            if(email == ""){
+                alert("Please enter email"); 
+                return false;
+            }
+            if(pass == ""){
+                alert("Please enter password"); 
+                return false; 
+            }
+            if(!alert("SignUp successfull!!")){
+                var url = './pg1.html'; // pass your url here
+                window.open(url, '_blank');
+            }
+            return true;
+        }
+
+        function func2(){
+            var email = document.getElementById("email2").value; // Retrieving email value
+            var pass = document.getElementById("pass2").value; // Retrieving password value
+            
+            if(email == "akasanks@gmail.com" && pass == "12345678"){
+                if(!alert("Login successfull!!")){
+                    var url = './pg1.html'; // pass your url here
+                    window.open(url, '_blank');
+                }
+            return true;
+            }
+            else{
+                alert("Invalid credentials. Please try again.");
+                return false;
+            }
+        }
+
+    </script>
+</body>
+</html>
