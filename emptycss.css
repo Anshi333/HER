@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pink-box {
+    background-color:#FFD0C6;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    margin-top: 225px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-box h1 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 36px;
+    color: black;
+    margin: 0;
+}
