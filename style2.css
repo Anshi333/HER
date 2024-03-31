@@ -141,9 +141,9 @@ body{
     justify-content: center;
     align-items: center;
     place-self: center;
-    height: 600px;
+    height: 500px;
     width: 360px;
-    background-color: #EC8D77;
+    background-color: #d68887db;
     border-radius: 20px;
     transition: top ease 0.3s;
     position: relative;
@@ -188,6 +188,7 @@ body{
 }
 
 .footer{
+    text-align: center;
     font-family: serif;
     font-size: 20px;
 }
@@ -198,10 +199,11 @@ body{
     text-align: center;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 .dp{
     height: 175px;
     width: 280px;
 }
+
 
