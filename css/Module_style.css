@@ -29,7 +29,6 @@ body{
     font-size: 20px;
     display: grid;
     letter-spacing: 6px;
-    color:black;
 }
 .img{
     display: flex;
