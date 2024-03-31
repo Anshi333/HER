@@ -132,7 +132,7 @@ body{
     top: 0;
 }
 .stats:hover{
-    background-color: #e77552;
+    background-color: rgb(168, 66, 66);
     top: -8px;
     color: aliceblue;
 }
@@ -155,7 +155,7 @@ body{
 .text{
     font-size: 15px;
     text-align: center;
-    font-family: 'Hero-Light', sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: bold;
     margin-left: 250px;
     margin-right: 250px;
