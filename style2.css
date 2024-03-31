@@ -183,6 +183,7 @@ body{
 }
 
 .momo{
+    font-size: 20px;
     font-family:'Hero',sans-serif;
     margin:0px;
 }
@@ -193,7 +194,7 @@ body{
     font-size: 20px;
 }
 .foot{
-    background-color: #FFD0C6;
+    background-color: #f8bcae;
     padding: 30px;
     margin-top: 100px;
     text-align: center;
@@ -204,6 +205,9 @@ body{
 .dp{
     height: 175px;
     width: 280px;
+}
+.vid{
+    margin-top: 20px;
 }
 
 
